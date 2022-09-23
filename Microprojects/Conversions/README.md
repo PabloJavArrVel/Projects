@@ -40,7 +40,7 @@ This conversion follows the same principle, we first translate, then we give eac
   <img src="https://www.w3resource.com/w3r_images/javascript-math-image-exercise-2.svg">
 </p>
 
-I could also cover the direct conversion from binary to hexadecimal and the other way around but it doesn't really make sense, why? Well, you can always convert each system to decimal and then convert it to the other system. My algorithm implements these principles to automatize the process, each conversion function has a complexity time of O(e*n), n being obviously the number of elements in the list and e being the length of the element itself.
+I could also cover the direct conversion from binary to hexadecimal and the other way around but it doesn't really make sense, why? Well, you can always convert each system to decimal and then convert it to the other system. My algorithm implements these principles to automatize the process, each conversion function has a complexity time of O(e*n), n being obviously the number of elements in the list and e being the length of each element itself.
 
 
 Corresponding credits
