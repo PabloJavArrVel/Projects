@@ -1,6 +1,6 @@
 # =================================================================
 #
-#  File: Convertions.py
+#  File: Conversions.py
 #  Author: Pablo Javier Arreola Velasco
 #  Date: 23/Sept/22
 #  Description: This program converts values in a list to different systems 
