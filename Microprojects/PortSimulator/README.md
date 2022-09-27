@@ -52,4 +52,4 @@ The program displays the recordes which UBI starts with *prefix*, sorted by date
 01-01-20 03:57 R 2HUK8
 01-01-20 04:57 R 2HUS4
 ```
-This program implements files from other colleagues which names are listed at the beginning of the program
+This program implements files from other colleagues which names are listed at the beginning of those files
