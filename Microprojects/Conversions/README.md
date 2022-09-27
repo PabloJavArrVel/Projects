@@ -1,3 +1,5 @@
+# Conversions.py
+
 In our culture we use a numbering system with a base of 10 (decimal), wich means that any number we can imagine can only be made with 10 symbols those being 0-9, however, there are more ways in which we can count things, other cultures like Mayan used a counting system with base 20. Nowadays though the most used system for everyday life is decimal, however other aplications require different systems, for example binary is used to represent any operation a computer performs, hexadecimal is used to label shapes of color and to give adresses to memory locations, and so on. Any system can be converted to other with a set of operations, the process is as follows:
 
 A) From decimal to binary
