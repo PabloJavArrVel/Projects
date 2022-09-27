@@ -1,37 +1,28 @@
-![Tec de Monterrey](images/logotecmty.png)
-# Act 1.3 - Actividad Integral de Conceptos Básicos y Algoritmos Fundamentales (Evidencia Competencia)
+# PortSimulator
 
-## <span style="color: rgb(26, 99, 169);">¿Qué tengo que hacer?</span>
-En este repositorio encontrarás los archivos de entrada, así como las salidas esperadas que podrás usar para probar tu implementación. También encontrarás un archivo "main.cpp". Ahí deberás implementar tu solución. En el archivo deberás colocar en la parte superior, en comentarios, tus datos. Por ejemplo:
-```
-// =========================================================
-// File: main.cpp
-// Author: Edward Elric - A00123456
-// Date: 01/01/2021
-// =========================================================
-```
-<span style="text-decoration: underline;">De manera individual</span>, desarrolla la solución del siguiente problema:
+This program is intended to simulate the following scenario
 
-El canal de Suez es un canal navegable que conecta el mar Mediterráneo con el mar Rojo a través de alrededor de 190 km, uniendo por un el lado del mar Mediterráneo desde el puerto Said hasta el golfo de Suez en el mar Rojo. Este canal es navegado entre 49 y 97 barcos diariamente. Se tiene un registro de los barcos que navegan por el canal con el siguiente formato:
+The Suez Canal is a navigable canal that connects the Mediterranean Sea with the Red Sea for around 190 km, joining the Mediterranean Sea from Port Said to the Gulf of Suez in the Red Sea on one side. This channel is navigated between 49 and 97 ships daily. There is a record of the ships that navigate the canal with the following format:
+
 ```
-<fecha> <hora> <punto-entrada> <UBI-Identificador único del buque>
+<Date> <Hour> <EntryPoint> <UBI-Unique vessel identifier (Identificador único del buque)>
 ```
-Ejemplo:
+Example:
 ```
 03-01-20 13:45 M 8PAK7
 ```
-Donde:
-* El punto de entrada puede ser **M – Mar Mediterráneo** y **R – Mar Rojo**.
-* La fecha estará entre **01-ENE-2020** y **31-DIC-2020**.
-* El tiempo estará en formato de 24 Hrs.
+Where:
+* The entry point can be **M – Mediterranean Sea** and **R – Red Sea**.
+* The date format will be between **01-JAN-2020** and **31-DIC-2020**.
+* The time format will be 24h.
 
-## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
-La primera línea de entrada contiene dos elementos: un entero *n*, el número de barcos que ha entrado al canal, y una cadena de 3 tres caracteres *prefix*, el prefijo del UBI a búscar. Las siguientes *n* líneas; contiene el registro de los barcos que han entrado al canal con el formato descrito anteriormente.
+## <span style="color: rgb(26, 99, 169);">**Input**</span>
+The first line of input contains two elements: an integer *n*, the number of ships that have entered the channel, and a string of 3 three characters *prefix*, the prefix of the UBI to search for. The next *n* lines; contains the record of the ships that have entered the canal with the format described above.
 
 ## <span style="color: rgb(26, 99, 169);">**Salida**</span>
-Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados por fecha.
+The program displays the recordes which UBI starts with *prefix*, sorted by date and hour.
 
-## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
+## <span style="color: rgb(26, 99, 169);">**Input example**</span>
 ```
 16 2HU
 01-01-20 00:17 R 2HUN5
@@ -52,7 +43,7 @@ Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados 
 01-01-20 05:17 R 0FRX0
 ```
 
-## <span style="color: rgb(26, 99, 169);">**Ejemplo de salida**</span>
+## <span style="color: rgb(26, 99, 169);">**Output example**</span>
 ```
 01-01-20 00:17 R 2HUN5
 01-01-20 00:57 M 2HUQ5
@@ -61,39 +52,3 @@ Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados 
 01-01-20 03:57 R 2HUK8
 01-01-20 04:57 R 2HUS4
 ```
-
-Para probar tu implementación, compila tu programa con el comando:
-```
-g++ -std=c++11 main.cpp -o app
-```
-Posteriormente, prueba con cada uno de los archivos de entrada de prueba que encontrarás en este repositorio (input1.txt, input2.txt, input3.txt, input4.txt). Los resultados que debes obtener se encuentran en los archivos llamados output1.txt, output1.txt, output1.txt y output1.txt. Para realizar las pruebas, puedes usar las siguientes líneas de código. Por ejemplo, si queremos probar con el archivo de prueba "input1.txt".
-```
-./app < input1.txt > mysolution1.txt
-diff mysolution1.txt output1.txt
-```
-Si el segundo comando no tenga ninguna salida, sabrás que los resultados que obtuviste son los esperados. Recuerda actualizar tu repositorio (*git push*) cuando hayas terminado tu implementación.
-
-Por último, realiza una investigación y reflexión en forma individual de la importancia y eficiencia del uso de los diferentes algoritmos de ordenamiento y búsqueda en una situación problema de esta naturaleza, generando un documento llamado **"ReflexAct1.3.pdf"**
-
-## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
-
-- **80%** - Para cada una de las funcionalidades se evaluará:
-
-    - **Excelente (80%)** - pasa correctamente todos los casos de prueba.
-    - **Muy Bien (60%)** - pasa correctamente el 75% de los casos de prueba.
-    - **Bien (40%)** - pasa correctamente el 50% de los casos de prueba.
-    - **Insuficiente (20%)** - pasa correctamente menos del 50% de los casos de prueba.
-
-
-- **10%** - El código deberá seguir los lineamientos estipulados en el estándar de codificación: <span class="instructure_file_holder link_holder">[liga_estándar_codificación](estandar.pdf)</span>
-- **10%** - Se respetenan los nombres de las funciones en la aplicación.
-
-## <span style="color: rgb(26, 99, 169);">**¿Dónde la entrego?**</span>
-Esta actividad forma parte tanto de tu calificación final del curso, así como del portafolio de evidencias de las competencias a desarrollar del curso, por lo que se te pide que en forma individual:
-* Realices una entrega de  los archivos correspondientes de los algoritmos de ordenamiento y búsqueda, en la sección correspondiente dentro de esta plataforma, así como el documento de reflexión individual (**ReflexAct1.3.pdf**).
-* Generes una carpeta en forma personal llamada **TC1031(Portafolio_Final)** que servirá como preparación para la entrega del portafolio de competencias que se realizará al final del curso, esta carpeta debe contener 5 carpetas:
-    * **Act1.3** - coloca aquí tus archivos que solucionaron la <span style="text-decoration: underline;">actividad 1.3</span> así como el documento de reflexión individual (**ReflexAct1.3.pdf**).
-    * Act2.3
-    * Act3.4
-    * Act4.3
-    * Act5.2
