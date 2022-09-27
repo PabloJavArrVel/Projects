@@ -2,7 +2,7 @@
 
 This program is intended to simulate the following scenario
 
-The Suez Canal is a navigable canal that connects the Mediterranean Sea with the Red Sea for around 190 km, joining the Mediterranean Sea from Port Said to the Gulf of Suez in the Red Sea on one side. This channel is navigated between 49 and 97 ships daily. There is a record of the ships that navigate the canal with the following format:
+The Suez Canal is a navigable canal that connects the Mediterranean Sea with the Red Sea for around 190 km, joining the Mediterranean Sea from Port Saíd to the Gulf of Suez in the Red Sea on one side. This channel is navigated between 49 and 97 ships daily. There is a record of the ships that navigate the canal with the following format:
 
 ```
 <Date> <Hour> <EntryPoint> <UBI-Unique vessel identifier (Identificador único del buque)>
