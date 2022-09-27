@@ -34,7 +34,7 @@ Now let's do it the opposite way, from hexadecimal to decimal, we know that the 
   <img src="https://user-images.githubusercontent.com/110910843/192014883-3537fd67-7669-42f7-9942-113aeab7c0a9.png">
 </p>
 
-## D) From binary to decimal
+## D) From binary to decimal
 
 This conversion follows the same principle, we first translate, then we give each position a weight, multiply each value by its weight and we finally sum, like this.
 
