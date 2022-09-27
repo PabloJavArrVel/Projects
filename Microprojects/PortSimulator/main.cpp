@@ -1,7 +1,7 @@
 // =================================================================
 //
 // File: main.cpp
-// Author: Pablo Javier Arreola Velasco & Jesús Sánchez López
+// Author: Pablo Javier Arreola Velasco
 // Date: 9th September 2022
 //
 // =================================================================
