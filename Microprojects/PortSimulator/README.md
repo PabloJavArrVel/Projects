@@ -19,7 +19,7 @@ Where:
 ## <span style="color: rgb(26, 99, 169);">**Input**</span>
 The first line of input contains two elements: an integer *n*, the number of ships that have entered the channel, and a string of 3 three characters *prefix*, the prefix of the UBI to search for. The next *n* lines; contains the record of the ships that have entered the canal with the format described above.
 
-## <span style="color: rgb(26, 99, 169);">**Salida**</span>
+## <span style="color: rgb(26, 99, 169);">**Output**</span>
 The program displays the recordes which UBI starts with *prefix*, sorted by date and hour.
 
 ## <span style="color: rgb(26, 99, 169);">**Input example**</span>
