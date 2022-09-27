@@ -19,7 +19,7 @@ hex1 = ["1EF", "756AA", "24FC7"]
 hex2 = ["75B4", "FC66", "87001B"]
 
 """Converts elements of an int list of decimal values to an int list of binary values"""
-def decimal2Binary(nums: List[int]) -> List[int]:
+def decimal2Binary(nums: List[int]) -> List[str]:
     # We set the variables wich hold the position and the final result
     res = []
     i = 0
